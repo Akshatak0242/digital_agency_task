@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <script>
+      $(document).ready(function(){
+        $(".mobile_menu_btn").click(function(){
+          $(".header_right").toggleClass("open_menu");
+        });
+      });
+
+      $(document).ready(function(){
+        $(".close_menu").click(function(){
+          $(".header_right").toggleClass("open_menu");
+        });
+      });
+      </script>
+</head>
+<body>
+     <header>
+                <div class="left_wrap col-lg-6">
+                <h1>Digital Agency</h1>
+                </div>
+             <div class="right_wrap col-lg-6">
+               <button class="mobile_menu_btn"><img src="Images/menu_icon.png" alt="menu_images"/></button>
+                <ul>
+                    <li class="close_menu"><button><img src="images/cross_icon.png" alt="cross-menu"></button></li>
+                    <li><a href="" target="_blank"></a>Home</li>
+                    <li><a href="" target="_blank"></a>Services</li>
+                    <li><a href="" target="_blank"></a>FAQ</li>
+                    <li><a href="" target="_blank"></a>Blog</li>
+                    <li><a href="" target="_blank"></a>Contact</li>
+                </ul>
+              </div>
+    </header>
+        <div class="agency">
+                <div class="creative">
+                    <div class="left_digital col-md-6">
+                        <h1>A Creative Digital Marketing Agency</h1>
+                        <p class="para_1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi recusandae culpa omnis voluptas praesentium in eum neque, aut corrupti sequi, quia fugit nobis illum quos alias assumenda cum cumque magni.</p>
+                        <button class="btn_1">Contact us</button>
+                        <button class="btn_1">Read More</button>
+                    </div>
+                    <div class="right_digital col-md-6">
+                        <img src="Images/right_digital img.jpg" alt="digital marketing" class="main_img">
+                    </div>               
+                </div>
+                <div class="banner">
+                    <img src="Images/icon_1.jpg" alt="icon" class="icon_1">
+                    <img src="Images/icon_2.jpg" alt="icon" class="icon_1">
+                    <img src="Images/icon_3.jpg" alt="icon" class="icon_1">
+                    <img src="Images/icon_4.jpg" alt="icon" class="icon_1">
+                </div>
+                <div class="services col-lg-12">
+                    <h2>Our Services</h2>
+                    <p class="para_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium ut dignissimos quam? Accusamus maxime corporis debitis et odit odio.</p>
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide"><div class="strategy">
+                                <img src="Images/carousel_1.jpg" alt="carousel-img" class="icon_2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                              </div></div>
+                              <div class="swiper-slide"><div class="strategy">
+                                <img src="Images/carousel_2.avif" alt="carousel-img" class="icon_2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                              </div></div>
+                              <div class="swiper-slide"><div class="strategy">
+                                <img src="Images/carousel_3.jpg" alt="carousel-img" class="icon_2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                              </div></div>
+                              <div class="swiper-slide"><div class="strategy">
+                                <img src="Images/carousel_1.jpg" alt="carousel-img" class="icon_2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                              </div></div>
+                              <div class="swiper-slide"><div class="strategy">
+                                <img src="Images/carousel_2.avif" alt="carousel-img" class="icon_2">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                              </div></div>
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                          </div>
+                </div>
+                <div class="management">
+                    <div class="container">
+                        <div class="left_box col-lg-6">
+                            <img src="Images/Service Management-img.jpg" alt="service-img" class="secondary_img">
+                        </div>
+                        <div class="right_box col-lg-6">
+                            <h2>Service Management</h2>
+                            <p class="para_3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum sequi, sint nihil dolores quam a explicabo inventore repudiandae quasi dolore cupiditate sapiente deleniti aut, aliquid modi qui.</p>
+                            <p class="para_3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odit, animi ullam nam, voluptatum pariatur vel sequi non quasi praesentium debitis. Deleniti iure inventore ex.</p>
+                            <button class="btn_2">Get Started</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="marketing">
+                    <div class="container">
+                        <div class="left_pack">
+                            <h2>Marketing agency that helps you succeed</h2>
+                            <p class="para_4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ratione voluptates vero consequuntur quo incidunt?</p>
+                            <p class="para_4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ratione voluptates vero consequuntur quo incidunt?</p>
+                            <button class="btn_3">Get Started</button>
+                        </div>
+                        <div class="right_pack">
+                            <img src="Images/right_pack.jpg" alt="service_img" class="marketing_img">
+                        </div>
+                    </div>
+                </div>
+                <div class="client">
+                    <div class="container">
+                      <div class="row">
+                        <div class="left_side col-md-6">
+                          <h2 class="h_5">Read Our Story</h2>
+                          <p class="para_5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat assumenda doloribus tempore porro excepturi perspiciatis laborum veniam necessitatibus neque eaque, magnam deserunt sequi blanditiis numquam!</p>
+                          <button class="btn_3">Get Started</button>
+                      </div>
+                      <div class="right_side col-md-6">
+                        <div class="swiper mySwiper_1">
+                          <div class="swiper-wrapper">
+                            <div class="swiper-slide"><div class="strategy">
+                              <img src="Images/swiper_01.jpg" alt="carousel-img" class="icon_2">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                            </div></div>
+                            <div class="swiper-slide"><div class="strategy">
+                              <img src="Images/swiper_2.jpg" alt="carousel-img" class="icon_2">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                            </div></div>
+                            <div class="swiper-slide"><div class="strategy">
+                              <img src="Images/swiper_3.webp" alt="carousel-img" class="icon_2">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                            </div></div>
+                            <div class="swiper-slide"><div class="strategy">
+                              <img src="Images/swiper_4.png" alt="carousel-img" class="icon_2">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                            </div></div>
+                            <div class="swiper-slide"><div class="strategy">
+                              <img src="Images/swiper_5.jpg" alt="carousel-img" class="icon_2">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, officiis est voluptas numquam laudantium sequi odio qupd.</p>
+                            </div></div>
+                          </div>
+                          <div class="swiper-button-next"></div>
+                          <div class="swiper-button-prev"></div>
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+        </div>
+        <footer>
+          <div class="container">
+            <div class="row">
+              <div class="f_1 col-md-4">
+                <p class="para_8">Digital Agency</p>
+                <p class="para_6">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium corrupti velit dignissimos! Consequatur autem repellat iure accusantium quo deserunt sunt?</p>
+                  <div class="follow">
+                    <p class="para_7">Follow Us <img src="Images/rigth_arrow.png" alt="rigth_arrow"></p>
+                    <img src="Images/facebook_icon.png" alt="facebook_icon" class="icon_5">
+                    <img src="Images/twitter_icon.png" alt="twitter_icon" class="icon_5">
+                    <img src="Images/instagram_174855.png" alt="twitter_icon" class="icon_5">
+            </div>
+          </div>
+          <div class="col-md-3">
+            <p>Address</p>
+            <a>St. locacu USA <br> Street Front Road<br> road no.03</a>
+            <a>Email:<br> digital.info@gmail.com</a>
+            <a>Phone: <br> +0002 1253 0287 254</a>
+          </div>
+          <div class="col-md-3">
+            <p>About Us</p>
+            <a>Leadership</a>
+            <a>Company</a>
+            <a>Diversity</a>
+            <a>Job</a>
+            <a>Press</a>
+          </div>
+          <div class="col-md-2">
+            <p>Quick Links</p>
+            <a>Home</a>
+            <a>About Us</a>
+            <a>Services</a>
+            <a>Blog</a>
+            <a>Team</a>
+            <a>FAQ</a>
+          </div>
+        </div>
+      </div>
+      <div class="last_foot">
+        <p class="para_7">Copyrights@digitalagency- 2019</p>
+        <a>Terms & Use</a>
+        <a>Privacy Policies</a>
+      </div>
+    </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+   <script>
+    var swiper = new Swiper(".mySwiper_1", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+</html>
